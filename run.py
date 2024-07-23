@@ -85,7 +85,7 @@ document.add_paragraph('___________________________________' + '                
 document.add_paragraph()
 
 footer = document.add_paragraph()
-footerRun = footer.add_run('BRAVA BRAZIL S/A\n34.254.947/0001-40')
+footerRun = footer.add_run(f'{empresa.nameEmpresa}\n{empresa.CNPJempresa}')
 footerRun.font.size = Pt(6.5)
 footer.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
