@@ -1,0 +1,28 @@
+# Compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Diretórios de Cache
+__pycache__/
+
+# Ambiente Virtual
+venv/
+ENV/
+env/
+
+# Arquivos de Configuração
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos de Log
+*.log
+
+#Instituição particular
+LogoBravaBrazil.png
+privateData.py
+Termo de responsabilidade - setor de TI.docx
+Ref/
